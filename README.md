@@ -1,4 +1,5 @@
 # Student Management System
+# Find at : http://localhost:8006/StudentManagement/students
 
 A **Full-Stack Java Web Application** for managing student records.  
 Built using **Java (JDK 17)**, **JSP/Servlets**, **MySQL 8.0**, **Maven**, and **Apache Tomcat 10**.  
@@ -57,11 +58,11 @@ This project demonstrates **CRUD operations** (Create, Read, Update, Delete) wit
 
 ### Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/StudentManagement.git
 cd StudentManagement
 
-Step 2: Setup Database
+### Step 2: Setup Database
 
 Open MySQL Workbench / Command Line
 
@@ -80,14 +81,14 @@ CREATE TABLE students (
     course VARCHAR(100),
     age INT NOT NULL
 );
-Step 3: Configure Database Connection
+### Step 3: Configure Database Connection
 
 Update the database connection in StudentDAO.java:
 
 private String jdbcURL = "jdbc:mysql://localhost:3306/student_db?useSSL=false&serverTimezone=UTC";
 private String jdbcUsername = "root";      // your MySQL username
 private String jdbcPassword = "root123";   // your MySQL password
-Step 4: Build & Run Project
+### Step 4: Build & Run Project
 
 Open Eclipse → Import project → Existing Maven Project
 
@@ -98,7 +99,7 @@ Run project → Run on Server → Apache Tomcat 10
 Open browser:
 
 http://localhost:8080/StudentManagement/
-📌 Project Structure
+### 📌 Project Structure
 StudentManagement/
 ├── pom.xml
 ├── src/
@@ -115,7 +116,7 @@ StudentManagement/
 │   │       ├── add-student.jsp
 │   │       └── edit-student.jsp
 └── README.md
-📈 Features You Can Discuss in Interviews
+### 📈 Features That Can Be Discussed in Interviews
 
 Maven Build Tool: Dependency management & modular project
 
@@ -129,7 +130,7 @@ Frontend Styling: Beginner-friendly yet professional CSS
 
 CRUD Operations: End-to-end functionality
 
-🧩 Future Improvements
+### 🧩 Future Improvements
 
 Add search & filter functionality
 
@@ -139,12 +140,12 @@ Add authentication & authorization
 
 Add export to CSV/PDF functionality
 
-🔗 Live Demo
+### 🔗 Live Demo
 
 If deployed on Tomcat, open:
-http://localhost:8080/StudentManagement/
+http://localhost:8006/StudentManagement/students
 
-📚 References
+### 📚 References
 
 JSP & Servlets Documentation
 
@@ -152,9 +153,9 @@ MySQL Connector/J Documentation
 
 SLF4J Logger Documentation
 
-📝 Author
+### 📝 Author
 
-Ankna Litoriya – passionate Java Full-Stack developer.
+Ankna Litoriya
 
 GitHub: https://github.com/Ankna-litoriya
 
